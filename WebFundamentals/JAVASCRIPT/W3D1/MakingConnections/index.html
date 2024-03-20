@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menu d-flex justify-evenly align-center">
+        <div class="d-flex align-center">
+            <h2>Profile</h2>
+            <nav>
+                <a href="#">Home</a>
+                <a id="cursor" href="#">My Profile</a>
+                <a href="#">Find Connections</a>
+            </nav>
+        </div>
+        <button>Sign Out</button>
+    </div>
+    <div class="main d-flex">
+        <div class="flex-2">
+            <div class="container">
+                <p class="bar">.</p>
+                <div>
+                    <div>
+                        <img class="proff" src="images/jane-m.jpg" alt="profile-picture">
+                        <h1 class="name" id="userName">Jane Doe</h1>
+                    </div>
+                    <div class="info">
+                        <img class="map" src="icons/map-marker.png" alt="map-marker">
+                        <h3>Seattle</h3>
+                        <p class="text">Developer | Engineer | Problem Solver</p>
+                        <p class="text">Master of shadows and the Internet!</p>
+                        <img class="map" src="icons/gear.png" alt="gear">
+                        <a href="#" onclick="changeName()" //id="editUserName"//>edit profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <p class="ed-title">Education</p>
+                <p class="dojo">Coding Dojo - Full Stack Bootcamp</p>
+                <p class="date"> Dec 2019 - Mar 2020</p>
+                <p class="black-belt">Trip black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        <div class="flex-1">
+            <div class="table-1">
+                <div class="connection">
+                    <h3><span>2</span> Connection Requests</h3>
+                </div>
+                <div>
+                    <div class="d-flex align-center" id="requests">
+                        <img class="small" src="images/todd-s.jpg" alt="todd">
+                        <p class="kk">Todd E</p>
+                        <div>
+                            <a href="" onclick="hide()"><img class="icon" src="icons/accept-circle.png" alt="accept" onclick="hide()"></a>
+                            <img class="icon" src="icons/close-circle.png" alt="close" onclick="hide()">
+                        </div>
+                    </div>
+                    <div class="d-flex align-center" id="requests">
+                        <img class="small" src="images/phil-s.jpg" alt="phil">
+                        <p class="kk">Phil K</p>
+                        <div>
+                            <img class="icon" src="icons/accept-circle.png" alt="accept" onclick="hide()">
+                            <img class="icon" src="icons/close-circle.png" alt="close" onclick="hide()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table-2">
+                <div class="subtitle">
+                    <h3><span>500+</span> Your Connections</h3>
+                </div>
+                <div class="border">
+                    <div class="d-flex align-center">
+                        <img class="small" src="images/adrien-s.jpg" alt="adrien">
+                        <p class="kk">Adrien D</p>
+                    </div>
+                    <div class="d-flex align-center">
+                        <img class="small" src="images/anne-s.jpg" alt="anna">
+                        <p class="kk">Anne J</p>
+                    </div>
+                    <div class="d-flex align-center">
+                        <img class="small" src="images/alayne-s.jpg" alt="alayne">
+                        <p class="kk">Alayne T</p>
+                    </div>
+                    <div class="d-flex align-center">
+                        <img class="small" src="images/arry-s.jpg" alt="arry">
+                        <p class="kk">Arry Y</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

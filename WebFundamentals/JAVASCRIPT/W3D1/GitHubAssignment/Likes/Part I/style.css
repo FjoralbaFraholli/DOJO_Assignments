@@ -1,0 +1,26 @@
+.d-flex {
+    display: flex;
+}
+
+.container {
+    border: 2px solid black;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+button {
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    padding: 5px 20px;
+}

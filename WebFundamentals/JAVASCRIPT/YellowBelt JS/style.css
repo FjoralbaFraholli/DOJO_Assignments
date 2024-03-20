@@ -1,0 +1,258 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* MY CODE STARTS HERE */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.header {
+    background-color: lightseagreen;
+    color: white;
+    padding: 0% 20% 2%;
+    border-bottom: 3px solid black;
+}
+
+.nav-bar {
+    padding: 30px 0px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0px 10px;
+}
+
+.menu button {
+    color: blueviolet;
+    padding: 2px 20px;
+    font-weight: bold;
+    font-size: larger;
+    box-shadow: 3px 3px 3px black;
+    margin-left: 10px;
+}
+
+.align-bottom {
+    align-items: end;
+}
+
+.icon {
+    height: 20px;
+    width: auto;
+    margin: 7px 0px 0px 0px;
+    padding-top: 3px;
+}
+
+.image {
+    width: 100px;
+    padding-right: 20px;
+}
+
+.container {
+    padding: 0% 20%;
+
+}
+
+.sect-3 {
+    width: 15%;
+    text-align: right;
+}
+
+.sect-1 {
+    width: 15%;
+}
+
+.sect-2 {
+    width: 70%;
+}
+
+.sect-2 h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pet {
+    width: 150px;
+    background-color: rgb(91, 238, 231);
+    color: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.row {
+    background-color: rgb(232, 232, 232);
+    margin: 15px 0px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 12px;
+}
+
+#find {
+    width: 200px;
+    color: white;
+    background-color: blueviolet;
+    padding: 3px 0px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+#list {
+    width: 170px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 3px 0px 3px 10px;
+}
+
+input {
+    width: 170px;
+    border: 2px solid black;
+    padding: 3px 0px 3px 10px;
+}
+
+#count1,
+#count2,
+#count3 {
+    margin-bottom: 13px;
+}

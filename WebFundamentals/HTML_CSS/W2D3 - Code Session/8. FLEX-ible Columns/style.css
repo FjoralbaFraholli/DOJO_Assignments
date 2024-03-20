@@ -1,0 +1,42 @@
+  .title { 
+    text-align: center;
+  }
+  .row {
+    display: flex;  
+  }
+  .col {
+    flex: 1;
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+  }
+  .row-sec-part {
+    display: flex;  
+  }
+  .col-sec-part {
+    flex: 1;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px;
+  }
+  .col-2-sec-part {
+    flex: 2;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px;
+  }
+  .row-third-part {
+    display: flex;  
+  }
+  .col-2-third-part {
+    flex: 2;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+  }
+  .col-3-third-part {
+    flex: 3;
+    background-color: cadetblue;
+    padding: 20px;
+    margin: 10px;
+  }

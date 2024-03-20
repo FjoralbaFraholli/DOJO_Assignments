@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav d-flex justify-between align-center">
+        <h1>DojoWeather</h1>
+        <div>
+            <a href="#" onclick="alert('Loading weather report...')">Burbank</a>
+            <a href="#" onclick="alert('Loading weather report...')">Chicago</a>
+            <a href="#" onclick="alert('Loading weather report...')">Dallas</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="city d-flex justify-between border-bottom">
+            <div>
+                <h2>San Jose</h2>
+            </div>
+            <div class="select">
+                <label>show temperature in</label>
+                <select name="degree-format" class="degree-format" id="select-degree">
+                    <option value="celsius">&deg;C</option>
+                    <option value="fahrenheit">&deg;F</option>
+                </select>
+            </div>
+        </div>
+        <div class="d-flex justify-between align-center text-center">
+            <div class="forecast">
+                <h3 class="days">Today</h3>
+                <img class="pic" src="assets/some_rain.png" alt="rainy">
+                <p class="description">some rain</p>
+                <div class="degree d-flex justify-evenly">
+                    <p class="text-red">24&deg;</p>
+                    <p class="text-blue">18&deg;</p>
+                </div>
+            </div>
+            <div class="forecast">
+                <h3 class="days">Tomorrow</h3>
+                <img class="pic" src="assets/some_sun.png" alt="sunny">
+                <p class="description">some sun</p>
+                <div class="degree d-flex justify-evenly">
+                    <p class="text-red">27&deg;</p>
+                    <p class="text-blue">19&deg;</p>
+                </div>
+            </div>
+            <div class="forecast">
+                <h3 class="days">Friday</h3>
+                <img class="pic" src="assets/some_clouds.png" alt="cloudy">
+                <p class="description">some clouds</p>
+                <div class="degree d-flex justify-evenly">
+                    <p class="text-red">21&deg;</p>
+                    <p class="text-blue">16&deg;</p>
+                </div>
+            </div>
+            <div class="forecast">
+                <h3 class="days">Saturday</h3>
+                <img class="pic" src="assets/some_sun.png" alt="sunny">
+                <p class="description">some sun</p>
+                <div class="degree d-flex justify-evenly">
+                    <p class="text-red">26<span>&deg;</span></p>
+                    <p class="text-blue">21<span>&deg;</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="cookies d-flex justify-between align-center" id="cookies">
+            <div>
+                <img src="assets/cookie.png" alt="cookies">
+            </div>
+            <div>
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media
+                    features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <div>
+                <button id="btn" onclick="hide()">I Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

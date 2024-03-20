@@ -1,0 +1,275 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* MY CODE STARTS HERE */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.nav {
+    background-color: lightskyblue;
+    color: white;
+    padding: 30px 200px 30px 200px;
+}
+
+.nav h1 {
+    font-size: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 0px 30px;
+}
+
+.container {
+    margin: 20px 200px 0px 200px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid black;
+    margin: 20px 0px;
+}
+
+.cookies {
+    border: 2px solid black;
+    margin: 30px 0px;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    padding: 5px 40px;
+}
+
+.cookies h4 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.cookies p {
+    font-size: 18px;
+}
+
+#btn {
+    border: 2px solid black;
+    background-color: lightskyblue;
+    font-weight: bold;
+    padding: 3px 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.city {
+    padding: 30px 0px;
+}
+
+.city h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.select {
+    font-size: 20px;
+}
+
+.days {
+    font-size: 25px;
+    margin: 20px;
+}
+
+.forecast {
+    background-color: rgb(240, 240, 240);
+}
+
+.pic {
+    border-radius: 50%;
+    width: 150px;
+    padding: 0px 40px 0px 40px;
+}
+
+.degree-format {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.description {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.degree {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}

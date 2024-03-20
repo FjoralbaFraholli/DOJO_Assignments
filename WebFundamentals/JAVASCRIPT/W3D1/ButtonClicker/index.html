@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="d-flex justify-evenly align-center">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search" id="search">
+        <button onclick="logout(this)" id="login">Login</button>
+    </header>
+    <main class="justify-evenly d-flex">
+        <div >
+            <div class="definition d-flex align-center pad-20">
+                <div class="ninja col-1">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural: <span class="italic">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="col-2 pad-20">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="definition d-flex align-center pad-20">
+                <div class="ninja col-1">
+                    <h1>ninja</h1>
+                    <h3 class="italic">noun</h3>
+                    <p>Plural: <span class="italic">ninjas</span></p>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="col-2 pad-20">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a> like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="dojonary pad-20">
+            <p>Dojonary is defined by <span>YOU</span></p>
+            <button onclick="hide(this)">Add Definition</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

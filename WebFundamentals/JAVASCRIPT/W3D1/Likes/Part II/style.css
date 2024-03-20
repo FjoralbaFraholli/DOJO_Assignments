@@ -1,0 +1,55 @@
+.d-flex {
+    display: flex;
+}
+
+.details {
+    border: 2px solid black;
+    height: 50%;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+#user-pic {
+    width: 100px;
+}
+
+.comment {
+    border: 2px solid black;
+    /* width: 70%; */
+    margin: 20px;
+    padding: 20px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 1px 20px;
+}
+
+.feed-title {
+    text-align: center;
+}

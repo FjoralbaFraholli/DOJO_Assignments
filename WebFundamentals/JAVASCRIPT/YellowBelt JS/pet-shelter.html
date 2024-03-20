@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Per Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav-bar d-flex align-center justify-between">
+            <div>
+                <h1 id="title">&#10084; Pet Shelter</h1>
+            </div>
+            <div class="menu">
+                <a href="#">Find a Pet</a>
+                <a href="#">About</a>
+                <button onclick="hide(this)">Donate</button>
+            </div>
+        </div>
+        <div class="d-flex justify-between align-bottom">
+            <div class="align-center">
+                <p>I'm looking for a...</p>
+                <img src="images/paw-light.png" alt="paw-icon" class="icon">
+                <select name="choose" id="list">
+                    <option value="0">Any Pet</option>
+                    <option value="1">Cat</option>
+                    <option value="2">Dog</option>
+                </select>
+            </div>
+            <div>
+                <p>in or near...</p>
+                <img src="images/pin-light.png" alt="pin-icon" class="icon">
+                <input type="text" placeholder="City or Zip Code">
+            </div>
+            <div>
+                <button id="find">Find my new best friend</button>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="row d-flex align-center">
+                <div class="sect-1">
+                    <img src="images/pepper.jpg" alt="pepper" class="image">
+                </div>
+                <div class="sect-2">
+                    <h1>Pepper</h1>
+                    <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+                </div>
+                <div class="sect-3">
+                    <p id="count1">3 petting(s)</p>
+                    <button class="pet" onclick="add1()">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="row d-flex align-center">
+                <div class="sect-1">
+                    <img src="images/bruce.jpg" alt="bruce" class="image">
+                </div>
+                <div class="sect-2">
+                    <h1>Bruce</h1>
+                    <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                </div>
+                <div class="sect-3">
+                    <p id="count2">5 petting(s)</p>
+                    <button class="pet" onclick="add2()">Pet Bruce</button>
+                </div>
+            </div>
+            <div class="row d-flex align-center">
+                <div class="sect-1">
+                    <img src="images/oscar.jpg" alt="oscar" class="image">
+                </div>
+                <div class="sect-2">
+                    <h1>Oscar</h1>
+                    <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+                </div>
+                <div class="sect-3">
+                    <p id="count3">8 petting(s)</p>
+                    <button class="pet" onclick="add3()">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

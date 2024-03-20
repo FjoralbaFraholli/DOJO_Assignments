@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <video src="assets/snowy-mountain.mp4" class="main-video" onmouseover="over(this)" onmouseout="out(this)"></video>
+            <!-- this was a placeholder replaced with a real video -->
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>Example Video Title</h1>
+                    <h3>1.3K Views | October, 30, 2023</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video class="video-1" src="assets/sea-turtle.mp4" onmouseover="over(this).muted" onmouseout="out(this)"></video>
+                <span class="video-title">Sea Turtle Video 1</span>
+            </div>
+
+            <div class="video-small">
+                <video class="video-1" src="assets/sea-turtle.mp4" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Sea Turtle Video 2</span>
+            </div>
+
+            <div class="video-small">
+                <video class="video-1" src="assets/sea-turtle.mp4" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Sea Turtle Video 3</span>
+            </div>
+
+            <div class="video-small">
+                <video class="video-1" src="assets/sea-turtle.mp4" onmouseover="over(this)" onmouseout="out(this)"></video>
+                <span class="video-title">Sea Turtle Video 4</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
